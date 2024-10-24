@@ -1,0 +1,64 @@
+body {
+    background-color: black;/*màu nền*/
+    color: #fff;/*màu chữ*/
+    font-family: sans-serif;/*kiểu chữ*/
+    margin: 0;/*khoảng cách dòng*/
+    text-align: center; 
+}
+button {
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.projects {
+    margin-top: 80px;
+    background: linear-gradient(to bottom, rgb(168, 109, 75), rgb(255, 47, 0)); /* Gradient từ đỏ sang xanh dương */
+    background-clip: text; /* Clip nền chỉ áp dụng cho chữ */
+    color: transparent; /* Làm cho màu chữ trở nên trong suốt nếu ko sẽ ko đổi được màu */
+}
+.experience {
+    margin-top: 80px;
+    background: linear-gradient(to bottom, rgb(0, 0, 252), rgb(109, 109, 197)); /* Gradient từ đỏ sang xanh dương */
+    background-clip: text; /* Clip nền chỉ áp dụng cho chữ */
+    color: transparent; /* Làm cho màu chữ trở nên trong suốt nếu ko sẽ ko đổi được màu */
+}
+h3 {
+    color:#7b7a7a;
+}
+.header {
+    background-color: #0e0e0e;/*màu nền*/
+    color: white;/*màu chữ*/
+    display:flex
+}
+.hover-effect {
+    font-size: 24px;/*chỉnh cỡ chữ*/
+    transition: all 0.3s ease; /* Thêm hiệu ứng chuyển tiếp */
+}
+.hover-effect:hover {
+    transform: scale(1.2); /* Tăng kích thước chữ */
+}
+.avt {
+    position: relative;
+    margin-top: 80px;
+}
+.avt1 {
+    position: absolute;
+    z-index: 1;
+}
+.textcolor {
+    background: linear-gradient(to bottom right, rgb(236, 107, 33), rgb(169, 43, 161)); /* Gradient từ đỏ sang xanh dương */
+    background-clip: text; /* Clip nền chỉ áp dụng cho chữ */
+    color: transparent; /* Làm cho màu chữ trở nên trong suốt nếu ko sẽ ko đổi được màu */
+}
+.gallery {
+    margin-inline: 35%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); 
+    gap: 10px;
+}
+.gallery img {
+    height: auto; /* Giữ tỷ lệ ảnh */
+}
+
